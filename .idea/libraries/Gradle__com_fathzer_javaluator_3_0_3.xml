@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: com.fathzer:javaluator:3.0.3">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.fathzer/javaluator/3.0.3/86956b3f01ad679f8b34ccd31ebe2927dffabd19/javaluator-3.0.3.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.fathzer/javaluator/3.0.3/c37fc57d0a9007cdade00d949a1e65faf208a580/javaluator-3.0.3-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.fathzer/javaluator/3.0.3/34e6e95c58a66793a9b2373a8bb3c74ffe2e90dc/javaluator-3.0.3-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
