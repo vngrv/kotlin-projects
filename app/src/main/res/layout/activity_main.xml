@@ -44,12 +44,10 @@
             android:layout_height="72dp"
             android:background="@drawable/shape_circle_grey"
             android:elevation="8dp"
-            android:enabled="false"
             android:gravity="center"
-            android:text="@string/buttonBinToggle"
+            android:text="AC"
             android:textAppearance="@style/TextAppearance.MaterialComponents.Headline6"
-            android:textColor="#929292"
-            tools:text="AC" />
+            android:textColor="#929292" />
 
         <Space
             android:layout_width="0dp"

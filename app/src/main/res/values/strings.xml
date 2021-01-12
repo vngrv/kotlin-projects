@@ -21,4 +21,5 @@
     <string name="buttonBinToggle">Bin</string>
     <string name="buttonOpeningBrace">(</string>
     <string name="buttonClosingBrace">)</string>
+    <string name="buttonReset" />
 </resources>
