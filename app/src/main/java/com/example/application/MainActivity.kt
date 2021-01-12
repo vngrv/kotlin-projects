@@ -33,6 +33,7 @@ class MainActivity : AppCompatActivity() {
     private lateinit var buttonOpeningBrace: Button
     private lateinit var buttonClosingBrace: Button
     private lateinit var buttonResult: Button
+    private lateinit var buttonReset: Button
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -74,6 +75,7 @@ class MainActivity : AppCompatActivity() {
         buttonOpeningBrace = findViewById(R.id.buttonOpeningBrace)
         buttonClosingBrace = findViewById(R.id.buttonClosingBrace)
         buttonResult = findViewById(R.id.buttonResult)
+        buttonReset = findViewById(R.id.buttonReset)
     }
 
     private fun configureScrollView() {
@@ -138,6 +140,9 @@ class MainActivity : AppCompatActivity() {
         buttonResult.setOnClickListener {
             calculateExpression()
         }
+        buttonReset.setOnClickListener {
+            resetTextView()
+        }
     }
 
     private fun enterSymbol(symbol: String) {
@@ -175,6 +180,10 @@ class MainActivity : AppCompatActivity() {
         val clipData: ClipData =
             ClipData.newPlainText(CLIP_DATA_LABEL, displayTextView.text.toString())
         clipboardManager.setPrimaryClip(clipData)
+    }
+
+    private fun resetTextView() {
+        displayTextView.text = 0.toString()
     }
 
     companion object {

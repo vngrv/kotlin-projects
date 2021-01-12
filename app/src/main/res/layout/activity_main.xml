@@ -39,15 +39,17 @@
             android:layout_weight="1" />
 
         <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/buttonReset"
             android:layout_width="72dp"
             android:layout_height="72dp"
             android:background="@drawable/shape_circle_grey"
             android:elevation="8dp"
+            android:enabled="false"
             android:gravity="center"
             android:text="@string/buttonBinToggle"
             android:textAppearance="@style/TextAppearance.MaterialComponents.Headline6"
             android:textColor="#929292"
-            android:enabled="false"/>
+            tools:text="AC" />
 
         <Space
             android:layout_width="0dp"
